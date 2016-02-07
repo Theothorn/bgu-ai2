@@ -1,0 +1,225 @@
+body {
+  font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
+  padding: 160px 0 0 0;
+}
+hr {
+  border-color: #e2000b;
+  border-width: 3px;
+  max-width: 50px;
+}
+hr.light {
+  border-color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
+  color: #000000;
+  margin-top: 0px;
+  padding: 0 2%;
+}
+.about {
+  padding-top: 30px;
+  background-color: #e2000b;
+}
+.about h4 {
+  color: #ffffff;
+  padding: 0 2%;
+  font-size: 1.2em;
+}
+.about p {
+  font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1em;
+  line-height: 1.2em;
+  color: #ffffff;
+  padding: 0 2%;
+}
+ul.dashed {
+  font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1em;
+  line-height: 1.2em;
+  color: #ffffff;
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: 0px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: 5%;
+}
+.navbar {
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+#branding img {
+  margin: 20px 0 40px 0;
+  max-width: 150px;
+}
+@media (max-width: 767px) {
+  #branding img {
+    margin: 20px 0 40px 0;
+  }
+}
+.bg-primary {
+  background-color: #e2000b;
+}
+.bg-dark {
+  background-color: #222222;
+  color: white;
+}
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+.no-padding {
+  padding: 0;
+}
+.portfolio-item p {
+  text-align: left;
+}
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 620px;
+  margin: 0 0 0 0;
+  padding: 0;
+}
+.portfolio-box .portfolio-box-caption {
+  color: #ffffff;
+  opacity: 0;
+  display: block;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 0;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
+  padding: 0 15px;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  font-weight: 600;
+  font-size: 1.1em;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-size: 1.1em;
+}
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+@media (min-width: 768px) {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 1.1em;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 1.1em;
+  }
+}
+.call-to-action h2 {
+  margin: 0 auto 20px;
+}
+.text-primary {
+  color: #e2000b;
+}
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.no-gutters > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+::selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+img::selection {
+  color: white;
+  background: transparent;
+}
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #222222;
+}
+/* centered columns styles */
+.row-centered {
+  text-align: center;
+}
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px;
+}
+.red {
+  color: #e2000b;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.white {
+  color: #ffffff;
+  margin-top: 60px;
+}
+.foot-links {
+  display: block;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+.cpright {
+  display: block;
+  color: #ccc;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  font-size: 1em;
+  padding: 0 2%;
+}
+.address {
+  display: block;
+  color: #e2000b;
+}
+.breadcrumb {
+  padding-top: 30px;
+  background-color: #fff;
+}
+.breadcrumb li a {
+  color: #ccc;
+  font-size: 0.9em;
+}
+.foot-header h3 {
+  font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
+  color: #ffffff;
+  margin-top: 0px;
+  padding: 0 0%;
+}
+.photogrid img {
+  margin: 0 0 0px 0;
+  cursor: pointer;
+}

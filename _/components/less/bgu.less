@@ -1,0 +1,303 @@
+// Global Components
+
+//my colors
+@red: 			#E2000B;
+@darkblue: 		#586E75;
+@black:			#000000;
+@white: 		#ffffff;
+@silver:		#f5f5f5;
+
+@theme-primary: #E2000B; //red
+@theme-dark: #222;			//black
+
+@headlineFontFamily:			"Bree Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@bguFontFamily:					Merriweather,Georgia, "Times New Roman", Times, serif;
+
+
+body {
+    font-family: @bguFontFamily;
+//	margin-top: 20px;
+padding: 160px 0 0 0;
+}
+
+hr {
+    border-color: @theme-primary;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+hr.light {
+    border-color: white;
+}
+
+a {
+    
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: @bguFontFamily;
+	color: @black;
+	margin-top:0px;
+	padding: 0 2%;
+}
+
+
+.about {
+  padding-top: 30px;
+background-color: @red;
+
+	h4 {
+		color: @white;
+		padding: 0 2%;
+		font-size: 1.2em;
+	}
+	p{
+	font-family: @bguFontFamily;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	color: @white;
+	padding: 0 2%;
+}
+}
+ul.dashed {
+	font-family: @bguFontFamily;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	color: @white;
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: 0px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: 5%;
+}
+
+.navbar {
+	border-right: none;
+	border-left: none;
+	border-radius: 0;
+}
+// Header
+#branding {
+	img {
+		margin: 20px 0 40px 0;
+		max-width: 150px;
+			@media(max-width: 767px) {
+				margin: 20px 0 40px 0;
+				//width: 90%;
+			}
+	}
+}
+
+
+.bg-primary {
+    background-color: @theme-primary;
+}
+
+.bg-dark {
+    background-color: @theme-dark;
+    color: white;
+}
+
+.text-faded {
+    color: fade(white, 70%);
+}
+
+.no-padding {
+    padding: 0;
+}
+
+
+// Homepage Header
+
+.portfolio-item {
+   // margin-bottom: 25px;
+   p {
+   text-align: left;
+   }
+}
+.portfolio-box {
+    position: relative;
+    display: block;
+    max-width: 620px;
+    margin: 0 0 0 0;
+	padding: 0;
+
+    .portfolio-box-caption {
+        color: @white;
+        opacity: 0;
+        display: block;
+        background: fade(@black, 80%);
+        position: absolute;
+        bottom: 0;
+        text-align: left;
+        width: 100%;
+        height: 100%;
+        .portfolio-box-caption-content {
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            .project-category,
+            .project-name {
+                font-family: @bguFontFamily;
+                padding: 0 15px;
+            }
+            .project-category {
+                font-weight: 600;
+                font-size: 1.1em;
+            }
+            .project-name {
+                font-size: 1.1em;;
+            }
+        }
+    }
+    &:hover {
+        .portfolio-box-caption {
+            opacity: 1;
+        }
+    }
+    @media (min-width: 768px) {
+        .portfolio-box-caption {
+            .portfolio-box-caption-content {
+                .project-category {
+                    font-size: 1.1em;
+                }
+                .project-name {
+                    font-size: 1.1em;
+                }
+            }
+        }
+    }
+
+}
+
+.call-to-action {
+    h2 {
+        margin: 0 auto 20px;
+    }
+}
+
+// Bootstrap Overrides
+.text-primary {
+    color: @theme-primary;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.no-gutters > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+// Extras
+// -- Highlight Color Customization
+::-moz-selection {
+    color: white;
+    text-shadow: none;
+    background: @theme-dark;
+}
+
+::selection {
+    color: white;
+    text-shadow: none;
+    background: @theme-dark;
+}
+
+img::selection {
+    color: white;
+    background: transparent;
+}
+
+img::-moz-selection {
+    color: white;
+    background: transparent;
+}
+
+body {
+    webkit-tap-highlight-color: @theme-dark;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.red {
+color: @red;
+margin-top: 40px;
+margin-bottom: 10px;
+}
+.white {
+color: @white;
+margin-top: 60px;
+}
+
+.foot-links {
+  display: block;
+   color: @white;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  
+  padding-bottom: 5px;
+  
+}
+
+.cpright {
+  display: block;
+   color: #ccc;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+	font-size: 1em;
+	padding: 0 2%;
+}
+
+.address {
+  display: block;
+  color: @red;
+}
+
+.footer {
+	
+}
+.breadcrumb  {padding-top: 30px;
+background-color: #fff;
+}
+.breadcrumb li a {
+color:#ccc;
+font-size: 0.9em;
+}
+
+ .foot-header {
+h3 {
+	font-family: @bguFontFamily;
+	color: @white;
+	margin-top:0px;
+	padding: 0 0%;
+}
+}
+
+.photogrid img {
+	margin: 0 0 0px 0;
+	cursor: pointer;
+
+	@media (max-width: 990px) {
+		//width: 64px;
+	}
+}
+
