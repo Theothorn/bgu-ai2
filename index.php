@@ -26,36 +26,36 @@
         <div class="container-fluid no-padding">
             <div class="row no-gutters">
                 <div class="col-sm-4 col-lg-4 ">
-                    <a href="architektur.php" class="portfolio-box">
-                        <img src="images/bgu-ai/ai1.jpg" class="img-responsive" alt="Architektur">
+                    <a href="#" class="portfolio-box">
+                        <img src="images/bgu-ai/ai1.jpg" class="img-responsive" alt="Wohnen im Dachgeschoss">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    Architektur
+                                    Wohnen<br />im Dachgeschoss
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-4 col-lg-4 ">
-                    <a href="verkauf.php" class="portfolio-box ">
-                        <img src="images/bgu-ai/ai2.jpg" class="img-responsive" alt="Verkauf">
+                    <a href="#" class="portfolio-box ">
+                        <img src="images/bgu-ai/ai2.jpg" class="img-responsive" alt="Niedrigenergiehaus in Stuttgart">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    Verkauf
+                                    Niedrigenergiehaus<br /> in Stuttgart
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-4 col-lg-4 ">
-                    <a href="vermietung.php" class="portfolio-box">
-                        <img src="images/bgu-ai/ai3.jpg" class="img-responsive" alt="Vermietung">
+                    <a href="#" class="portfolio-box">
+                        <img src="images/bgu-ai/ai3.jpg" class="img-responsive" alt="Denkmal in Stuttgart">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    Vermietung
+                                    Denkmal in Stuttgart
                                 </div>
                             </div>
                         </div>
@@ -63,36 +63,44 @@
                 </div>
 				
                 <div class="col-sm-4 col-lg-4 ">
-                    <a href="denkmalpflege.php" class="portfolio-box">
-                        <img src="images/bgu-ai/ai4.jpg" class="img-responsive" alt="Denkmalpflege">
+                    <a href="#" class="portfolio-box">
+                        <img src="images/bgu-ai/ai4.jpg" class="img-responsive" alt="historisches Amtsgebäude in Weilimdorf">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    Denkmalpflege
+                                    historisches<br /> Amtsgebäude <br />in Weilimdorf
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-4 col-lg-4 ">
-                    <a href="referenzen.php" class="portfolio-box">
-                        <img src="images/bgu-ai/ai5.jpg" class="img-responsive" alt="Referenzen">
+                    <a href="#" class="portfolio-box">
+                        <img src="images/bgu-ai/ai5.jpg" class="img-responsive" alt="Wohnen im ehemaligen Amtssitz">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    Referenzen
+                                    Wohnen<br /> im ehemaligen <br />Amtssitz
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-sm-4 col-lg-4 ">
-                    <a href="kontaktformular.php" class="portfolio-box">
-                        <img src="images/bgu-ai/ai6.jpg" class="img-responsive" alt="Kontaktformular">
+                    <a href="#" class="portfolio-box">
+                        <img src="images/bgu-ai/ai6.jpg" class="img-responsive" alt="Immobilienmanagement">
                         <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
+                            <div class="portfolio-box-caption-content2">
                                 <div class="project-name">
-                                    Kontaktformular
+                                    An und Verkauf von Immobilien<br />
+									Vermietung<br />
+									Bewertung<br />
+									Projektentwicklung<br />
+									persönliche Beratung<br />
+									Objektsuche<br />
+									Erstellung von Exposés<br />
+									Vertragsabwicklung<br />
+									Baubetreuung
                                 </div>
                             </div>
                         </div>
@@ -100,13 +108,29 @@
                 </div>
 				<div class="col-sm-4 col-lg-4 ">
                     <a href="#" class="portfolio-box">
-                        <img src="images/bgu-ai/ai7.jpg" class="img-responsive" alt="#">
+                        <img src="images/bgu-ai/ai7.jpg" class="img-responsive" alt="Architektur">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content2">
+                                <div class="project-name">
+										private Wohnhäuser<br />
+										gewerblicher Wohnungsbau<br />
+										Gewerbebauten<br />
+										Ausstellungen<br />
+										Denkmalpflege<br />
+										Innenarchitektur
+								</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-lg-4 ">
+                    <a href="#" class="portfolio-box">
+                        <img src="images/bgu-ai/ai8.jpg" class="img-responsive" alt="Jugendstilvilla Architektur in Esslingen">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    Ankauf und Verkauf von Immobilien<br>
-									Vermietung<br>
-									Individuelle Beratung
+											Jugendstilvilla<br />
+											Architektur in Esslingen
                                 </div>
                             </div>
                         </div>
@@ -114,27 +138,13 @@
                 </div>
                 <div class="col-sm-4 col-lg-4 ">
                     <a href="#" class="portfolio-box">
-                        <img src="images/bgu-ai/ai8.jpg" class="img-responsive" alt="#">
+                        <img src="images/bgu-ai/ai9.jpg" class="img-responsive" alt="Wohnen im restauriertem Denkmal">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    Bewertung von Immobilien<br>
-									Erstellung von Verkaufsunterlagen<br>
-									Vertragsabwicklung
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-sm-4 col-lg-4 ">
-                    <a href="#" class="portfolio-box">
-                        <img src="images/bgu-ai/ai9.jpg" class="img-responsive" alt="#">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">
-                                    Objektsuche<br>
-									Baubetreuung<br>
-									Marketing
+											Wohnen im<br />
+											restauriertem<br />
+											Denkmal
                                 </div>
                             </div>
                         </div>

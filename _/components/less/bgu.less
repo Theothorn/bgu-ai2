@@ -127,10 +127,10 @@ ul.dashed > li:before {
 	padding: 0;
 
     .portfolio-box-caption {
-        color: @white;
+        color: @theme-primary;
         opacity: 0;
         display: block;
-        background: fade(@black, 80%);
+        background: fade(@white, 70%);
         position: absolute;
         bottom: 0;
         text-align: left;
@@ -138,9 +138,32 @@ ul.dashed > li:before {
         height: 100%;
         .portfolio-box-caption-content {
             width: 100%;
-            text-align: center;
+            text-align: left;
             position: absolute;
             top: 50%;
+			padding-left: 15%;
+            transform: translateY(-50%);
+            .project-category,
+            .project-name {
+                font-family: @bguFontFamily;
+                padding: 0 55px;
+            }
+            .project-category {
+				top: 50%;
+                font-size: 1em;
+            }
+            .project-name2 {
+				
+			    font-family: @bguFontFamily;
+                padding: 0 15px;
+                font-size: 1em;;
+            }
+        }
+        .portfolio-box-caption-content2 {
+            width: 100%;
+            text-align: left;
+            position: absolute;
+            top: 45%;
             transform: translateY(-50%);
             .project-category,
             .project-name {
@@ -148,11 +171,10 @@ ul.dashed > li:before {
                 padding: 0 15px;
             }
             .project-category {
-                font-weight: 600;
                 font-size: 1.1em;
             }
             .project-name {
-                font-size: 1.1em;;
+                font-size: 1em;;
             }
         }
     }
