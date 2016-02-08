@@ -16,6 +16,16 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/misc/favicons/favicon-152.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/misc/favicons/favicon-144.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/misc/favicons/favicon-120.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/misc/favicons/favicon-114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/misc/favicons/favicon-72.png">
+<link rel="apple-touch-icon-precomposed" href="images/misc/favicons/favicon-57.png">
+<link rel="icon" href="images/misc/favicons/favicon-32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="images/misc/favicons/favicon-144.png">
+<link rel="shortcut icon" type="image/x-icon" href="images/misc/favicons/favicon.ico">
 </head>
 
 <body id="home">
@@ -90,7 +100,7 @@
                     <a href="#" class="portfolio-box">
                         <img src="images/bgu-ai/ai6.jpg" class="img-responsive" alt="Immobilienmanagement">
                         <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content2">
+                            <div class="portfolio-box-caption-content">
                                 <div class="project-name">
                                     An und Verkauf von Immobilien<br />
 									Vermietung<br />
@@ -110,7 +120,7 @@
                     <a href="#" class="portfolio-box">
                         <img src="images/bgu-ai/ai7.jpg" class="img-responsive" alt="Architektur">
                         <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content2">
+                            <div class="portfolio-box-caption-content">
                                 <div class="project-name">
 										private Wohnhäuser<br />
 										gewerblicher Wohnungsbau<br />

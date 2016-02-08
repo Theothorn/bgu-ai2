@@ -103,40 +103,17 @@ ul.dashed > li:before {
   width: 100%;
   text-align: left;
   position: absolute;
-  top: 50%;
-  padding-left: 15%;
-  transform: translateY(-50%);
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
-  padding: 0 55px;
+  padding: 5px 10px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   top: 50%;
   font-size: 1em;
 }
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name2 {
-  font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
-  padding: 0 15px;
-  font-size: 1em;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content2 {
-  width: 100%;
-  text-align: left;
-  position: absolute;
-  top: 45%;
-  transform: translateY(-50%);
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content2 .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content2 .project-name {
-  font-family: Merriweather, Georgia, "Times New Roman", Times, serif;
-  padding: 0 15px;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content2 .project-category {
-  font-size: 1.1em;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content2 .project-name {
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 1em;
 }
 .portfolio-box:hover .portfolio-box-caption {
@@ -144,10 +121,10 @@ ul.dashed > li:before {
 }
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 1.1em;
+    font-size: 1em;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 }
 .call-to-action h2 {
@@ -182,9 +159,6 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
-body {
-  webkit-tap-highlight-color: #222222;
-}
 /* centered columns styles */
 .row-centered {
   text-align: center;
@@ -206,32 +180,16 @@ body {
   color: #ffffff;
   margin-top: 60px;
 }
-.foot-links {
-  display: block;
-  color: #ffffff;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  text-decoration: none;
-  padding-bottom: 5px;
-}
-.cpright {
-  display: block;
-  color: #ccc;
-  transition: all 0.2s ease-in-out;
-  -webkit-transition: all 0.2s ease-in-out;
-  font-size: 1em;
-  padding: 0 2%;
-}
 .address {
   display: block;
   color: #e2000b;
 }
 .breadcrumb {
-  padding-top: 30px;
+  padding-top: 20px;
   background-color: #fff;
 }
 .breadcrumb li a {
-  color: #ccc;
+  color: #888;
   font-size: 0.9em;
 }
 .foot-header h3 {

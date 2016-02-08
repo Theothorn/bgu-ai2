@@ -7,7 +7,7 @@
    <title>Architektur & Immobilien</title>
 	<link href='http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
     <link href="_/css/bootstrap.css" rel="stylesheet">
-	<link href="_/css/bgu_ai.css" rel="stylesheet">
+	<link href="_/css/bgu.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,9 +19,7 @@
 </head>
 
 <body id="kontaktformular">
-
           <?php include "_/components/php/header.php"; ?>
-<br><br><br><br><br><br><br>
    <section id="contact">
         <div class="container-fluid">
                 <div class="row no-gutters">
@@ -61,32 +59,16 @@
                     <div class="col-sm-6">
                         <div class="row">
                             <div class="col-md-6 pull-right">
-                                <address>
-        <div class="address">
-		<h4> Ansprechpartner</h4>
-		Dipl.-Ing. Birgit Götz-Ullrich <br />
-		Architektin<br /> 
-		und Innenarchitektin     <br />
-		Neue Weinsteige 37 <br/>
-		70180 Stuttgart<br />
-		Mobil +49 172 7101988<br />
-		birgit@goetz-ullrich.de
-		</div>
-      
-                                </address>
-                            </div>
-                            <div class="col-md-6">
-                                <address>
-
-                                </address>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-
-                            </div>
-                            <div class="col-md-6">
-
+								<div class="address">
+								<h4> Ansprechpartnerin</h4>
+								Dipl.-Ing. Birgit Götz-Ullrich <br />
+								Architektin<br /> 
+								und Innenarchitektin     <br />
+								Neue Weinsteige 37 <br/>
+								70180 Stuttgart<br />
+								Mobil +49 172 7101988<br />
+								birgit@goetz-ullrich.de
+								</div>      
                             </div>
                         </div>
                     </div><!--/.col-sm-6-->
