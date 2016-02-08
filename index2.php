@@ -28,106 +28,81 @@
 <link rel="shortcut icon" type="image/x-icon" href="images/misc/favicons/favicon.ico">
 </head>
 
-<body id="verkauf">
+<body id="home">
 
           <?php include "_/components/php/header.php"; ?>
 
     <section class="no-padding" id="portfoliio">
         <div class="container-fluid no-padding">
             <div class="row no-gutters">
-			                <div class="col-sm-4 col-lg-4 ">
-                    <a href="#" class="portfolio-box">
-                        <img src="images/verkauf/v04.jpg" class="img-responsive" alt="historisches Amtsgebäude in Weilimdorf">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-								<div class="project-category">
-                                    Vermietet
-                                </div><br /><br /><br /><br /><br /><br />
-                                <div class="project-name">1 Zimmerwohnung in Weilimdorf<br />
-Erdgeschoss, 25 qm, möbliert
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
                 <div class="col-sm-4 col-lg-4 ">
                     <a href="#" class="portfolio-box">
-                        <img src="images/verkauf/v05.jpg" class="img-responsive" alt="Wohnen im ehemaligen Amtssitz">
+                        <img src="images/bgu-ai/ai1.jpg" class="img-responsive" alt="Wohnen im Dachgeschoss">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-								<div class="project-category">
-                                    Vermietet
-                                </div><br /><br /><br /><br /><br /><br />
                                 <div class="project-name">
-                                   2,5 Zimmerwohnung in Weilimdorf <br />
-1.OG, 60 qm, möbliert
+                                    Wohnen<br />im Dachgeschoss
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-4 col-lg-4 ">
+				                <div class="col-sm-4 col-lg-4 ">
                     <a href="#" class="portfolio-box">
-                        <img src="images/verkauf/v08.jpg" class="img-responsive" alt="Jugendstilvilla Architektur in Esslingen">
+                        <img src="images/bgu-ai/ai5.jpg" class="img-responsive" alt="Wohnen im ehemaligen Amtssitz">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-								<div class="project-category">
-                                    Vermietet
-                                </div><br /><br /><br /><br /><br /><br />
                                 <div class="project-name">
-											5,5 Zimmerwohnung in Stuttgart<br />
-											Dachgeschoss, 155 qm mit Balkon
+                                    Wohnen<br /> im ehemaligen <br />Amtssitz
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-				<div class="col-sm-4 col-lg-4 ">
+				                <div class="col-sm-4 col-lg-4 ">
                     <a href="#" class="portfolio-box">
-                        <img src="images/misc/promos/vermietung.jpg" class="img-responsive" alt="Vermietung">
+                        <img src="images/bgu-ai/ai6.jpg" class="img-responsive" alt="Immobilienmanagement">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-								<div class="project-category">
-                                    
-                                </div>
                                 <div class="project-name">
-Vermietung<br />
-persönliche Beratung<br />
-Objektsuche<br />
-Erstellung von Exposés<br />
-Vertragsabwicklung
+                                    An und Verkauf von Immobilien<br />
+									Vermietung<br />
+									Bewertung<br />
+									Projektentwicklung<br />
+									persönliche Beratung<br />
+									Objektsuche<br />
+									Erstellung von Exposés<br />
+									Vertragsabwicklung<br />
+									Baubetreuung
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+								<div class="col-sm-4 col-lg-4 ">
+                    <a href="#" class="portfolio-box">
+                        <img src="images/bgu-ai/ai7.jpg" class="img-responsive" alt="Architektur">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+										private Wohnhäuser<br />
+										gewerblicher Wohnungsbau<br />
+										Gewerbebauten<br />
+										Ausstellungen<br />
+										Denkmalpflege<br />
+										Innenarchitektur
 								</div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-4 col-lg-4 ">
+				                <div class="col-sm-4 col-lg-4 ">
                     <a href="#" class="portfolio-box">
-                        <img src="images/verkauf/v09.jpg" class="img-responsive" alt="Wohnen im restauriertem Denkmal">
+                        <img src="images/bgu-ai/ai3.jpg" class="img-responsive" alt="Denkmal in Stuttgart">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-								<div class="project-category">
-                                    Vermietet
-                                </div><br /><br /><br /><br /><br /><br />
                                 <div class="project-name">
-											3 Zimmerwohnung in Stuttgart Süd<br />
-											EG, 70 qm, große Terrasse
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-				
-                <div class="col-sm-4 col-lg-4 ">
-                    <a href="#" class="portfolio-box">
-                        <img src="images/verkauf/v01.jpg" class="img-responsive" alt="Wohnen im Dachgeschoss">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-								<div class="project-category">
-                                   zu verkaufen
-                                </div><br /><br /><br /><br /><br /><br />
-                                <div class="project-name">
-                                    Jugenstilvilla in Esslingen<br />6 Zimmer, 190 qm, top renoviert
+                                    Denkmal in Stuttgart
                                 </div>
                             </div>
                         </div>
@@ -135,60 +110,59 @@ Vertragsabwicklung
                 </div>
                 <div class="col-sm-4 col-lg-4 ">
                     <a href="#" class="portfolio-box ">
-                        <img src="images/verkauf/v02.jpg" class="img-responsive" alt="Niedrigenergiehaus in Stuttgart">
+                        <img src="images/bgu-ai/ai2.jpg" class="img-responsive" alt="Niedrigenergiehaus in Stuttgart">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-								<div class="project-category">
-                                    Verkauft
-                                </div><br /><br /><br /><br /><br /><br />
                                 <div class="project-name">
-                                    4 Zimmerwohnung in Stuttgart Süd<br />
-1. OG, 100qm, 2 Balkone
+                                    Niedrigenergiehaus<br /> in Stuttgart
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-sm-4 col-lg-4 ">
-                    <a href="#" class="portfolio-box">
-                        <img src="images/verkauf/v03.jpg" class="img-responsive" alt="Denkmal in Stuttgart">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-								<div class="project-category">
-                                    Verkauft
-                                </div><br /><br /><br /><br /><br /><br />
-                                <div class="project-name">
-                                    Einfamilienhaus in Stuttgart Nord <br />
-7 Zimmer, 250qm, in bevorzugter Lage
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+
 				
-
                 <div class="col-sm-4 col-lg-4 ">
                     <a href="#" class="portfolio-box">
-                        <img src="images/misc/promos/verkauf.jpg" class="img-responsive" alt="Verkauf">
+                        <img src="images/bgu-ai/ai4.jpg" class="img-responsive" alt="historisches Amtsgebäude in Weilimdorf">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-								<div class="project-category">
-                                    
-                                </div>
                                 <div class="project-name">
-An und Verkauf von Immobilien<br />
-Bewertung<br />
-persönliche Beratung<br />
-Objektsuche<br />
-Erstellung von Exposés<br />
-Vertragsabwicklung<br />
-Diskretion
+                                    historisches<br /> Amtsgebäude <br />in Weilimdorf
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-lg-4 ">
+                    <a href="#" class="portfolio-box">
+                        <img src="images/bgu-ai/ai9.jpg" class="img-responsive" alt="Wohnen im restauriertem Denkmal">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+											Wohnen im<br />
+											restauriertem<br />
+											Denkmal
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
 
+
+                <div class="col-sm-4 col-lg-4 ">
+                    <a href="#" class="portfolio-box">
+                        <img src="images/bgu-ai/ai8.jpg" class="img-responsive" alt="Jugendstilvilla Architektur in Esslingen">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-name">
+											Jugendstilvilla<br />
+											Architektur in Esslingen
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
 
                 
             </div><!-- row -->

@@ -62,8 +62,7 @@
 								<div class="address">
 								<h4> Ansprechpartnerin</h4>
 								Dipl.-Ing. Birgit Götz-Ullrich <br />
-								Architektin<br /> 
-								und Innenarchitektin     <br />
+								Architektin	und Innenarchitektin     <br /><br />
 								Neue Weinsteige 37 <br/>
 								70180 Stuttgart<br />
 								Mobil +49 172 7101988<br />

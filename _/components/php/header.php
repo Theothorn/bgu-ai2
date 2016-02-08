@@ -15,6 +15,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="ai_navbar">
                 <ul class="nav navbar-nav">	
+					<li><a href="index2.php">Front 2</a></li>
 					<li><a href="architektur.php">Architektur</a></li>
 					<li><a href="verkauf.php">Verkauf</a></li>			
 					<li><a href="vermietung.php">Vermietung</a></li>
